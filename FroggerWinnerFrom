@@ -1,0 +1,11 @@
+Private Sub cmdQuit_Click()
+End
+End Sub
+
+Private Sub cmdRetry_Click()
+winner.Visible = False
+winner.Enabled = False
+froggo.resetForm
+
+End Sub
+
